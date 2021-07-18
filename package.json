@@ -1,0 +1,46 @@
+{
+  "name": "gulp_example",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome development environment",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geonyeong-Son/Gulp_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geonyeong-Son/Gulp_example/issues"
+  },
+  "homepage": "https://github.com/Geonyeong-Son/Gulp_example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/register": "^7.14.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "del": "^6.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.2.1",
+    "gulp-pug": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "uglifyify": "^5.0.2"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
